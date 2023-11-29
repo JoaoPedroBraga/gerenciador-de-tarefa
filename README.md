@@ -27,3 +27,6 @@ O Desafio DNC - Lista de Tarefas é uma aplicação simples que permite aos usu�
 ### Atualizaçao da versão
 - Input adicionar tarefa
 - Finalizando a estilização das telas
+
+
+[Clique Aqui Para VEr como ficou](https://gerenciador-de-tarefaa.vercel.app/)
