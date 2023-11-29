@@ -2,7 +2,7 @@ import '../Tarefas/index.scss'
 import { Link } from 'react-router-dom'
 import Editar from '../../assets/editar.svg';
 import Lixeira from '../../assets/lixeira.svg';
-// import Add from '../../assets/add.svg';
+
 
 function Tarefas({data}) {
     console.log(data);

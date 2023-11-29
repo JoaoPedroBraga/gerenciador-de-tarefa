@@ -1,7 +1,7 @@
 import '../Home/index.scss';
 import Header from "../../components/Header/Header.jsx";
 import Tarefas from "../../components/Tarefas/Tarefas.jsx";
-import Add from '../../assets/Add.svg'
+import Add from '../../assets/add.svg'
 
 const Home = ({data}) => {
   
