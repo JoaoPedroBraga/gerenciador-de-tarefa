@@ -11,8 +11,10 @@ const Deletar = ({data}) => {
   return (
     <div className="Deletar">
         <Header/>
-
-        <Delete data={selectTarefa}/>
+        <div className='deletar__modal'>
+          <Delete data={selectTarefa}/>
+        </div>
+        
     </div>
   )
 }

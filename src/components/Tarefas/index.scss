@@ -1,47 +1,16 @@
 @use '../../global.scss' as *;
 
 .Tarefas{
-    min-width: 450px;
     color: $branco;
     display: flex;
-    justify-content: center;
-
-
-    .info{
-        display: flex;
-        justify-content: space-around;
-        text-align: left;
-    }
-    // .cabecalho-tabela{
-    //     width: 500px;
-    //     display: flex;
-    //     justify-content: space-around;
-    //     margin: 30px;
-    //     border-bottom: 5px solid $branco;
-    // }
-    // .cabecalho-tabela h3{
-    //     margin: 15px auto;
-    // }
-    // table{
-    //     width: 100%;
-    //     text-align: center;
-    // }
-    td{
+    justify-content: space-around;
+    p{
         width: calc(100%/3);
-        margin: auto 55px;
-        font-weight: lighter;
-        cursor: pointer;
+        font-weight: 400;
+        font-size:25px
     }
-    .td-title{
+    .p-title{
+        margin-left: 3%;
         text-align: left;
     }
-    // td .nova-tarefa{
-    //     border: none;
-    //     background-color: $preto-claro;
-    //     color: $branco ;
-    //     font-style: italic;
-    //     outline: none;
-    //     font-weight: lighter;
-    //     font-size: 15px;
-    // }
 }

@@ -11,7 +11,9 @@ const Editar = ({data}) => {
   return (
     <div className="Editar">
       <Header/>
+      <div className='editar__modal'>
       <Edit data={selectedTarefa}/>
+      </div>
     </div>
   )
 }

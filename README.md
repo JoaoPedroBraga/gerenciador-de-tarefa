@@ -12,4 +12,6 @@ O Desafio DNC - Lista de Tarefas é uma aplicação simples que permite aos usu�
 - Sass
 - React Router
   
-### versão 1
+### Atualizaçao da versão
+- Input adicionar tarefa
+- Finalizando a estilização das telas

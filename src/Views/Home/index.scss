@@ -5,9 +5,44 @@
     width: 100%;
     min-height: 100vh;
     text-align: center;
+    .home__conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
     h1{
         margin: 35px auto;
         color: $branco;
-        font-size: 31px;
+        font-size: 35px;
+    }
+    .home__cabecalho{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        color: $branco;
+        margin: 15px;
+        padding-bottom: 15px;
+        border-bottom: 5px solid $branco;
+    }
+    .home__tarefas{
+        width: 50%;
+    }
+    .home__add{
+        margin-left: 3%;
+        width: calc(100%/2);
+        display: flex;
+        justify-content: space-between;
+    }
+    .home__add input{
+        color: $branco;
+        background-color: $preto-claro;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        font-size:25px
+    }
+    .add__btn{
+        cursor: pointer;
+        margin-right: 18%;
     }
 }

@@ -8,14 +8,9 @@ function Tarefas({data}) {
     console.log(data);
   return (
     <section className='Tarefas'>
-
-        <div className='info'>
-            <td className='td-title'>{data.title}</td>
-            <td><input type="checkbox" /></td>
-            <td><Link to={`/editar/${data.id}`}><img src={Editar} alt="" /></Link> <Link to={`/deletar/${data.id}`}><img src={Lixeira} alt="" /></Link> </td>
-
-        </div>
-      
+      <p className='p-title'>{data.title}</p>
+      <p><input type="checkbox" /></p>
+      <p><Link to={`/editar/${data.id}`}><img src={Editar} alt="" /></Link> <Link to={`/deletar/${data.id}`}><img src={Lixeira} alt="" /></Link> </p>
     </section>
   )
 }
