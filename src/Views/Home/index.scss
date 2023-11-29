@@ -1,0 +1,13 @@
+@use '../../global.scss' as *;
+
+.Home{
+    background-color: $preto-claro;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    h1{
+        margin: 35px auto;
+        color: $branco;
+        font-size: 31px;
+    }
+}

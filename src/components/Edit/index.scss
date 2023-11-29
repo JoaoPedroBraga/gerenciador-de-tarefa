@@ -1,0 +1,43 @@
+@use '../../global.scss' as *;
+.Edit{
+    background-color: $branco;
+    min-width: 650px;
+    height: 350px;
+    border: solid 1px #2D2D2D;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    h2{
+        margin-top: 35px;
+
+    } 
+    p{  
+        margin: 15px auto;
+    }
+    p input{
+        width: 350px;
+        outline: none;
+        border: none;
+        text-align: center;
+    }
+    button{
+        width: 145px;
+        height: 55px;
+        border: solid 1px black;
+        border-radius: 10px;
+        margin: auto 35px;
+        cursor: pointer;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    button:hover{
+        background-color: $azul-escuro;
+        color: $branco;
+        border: solid 1px $azul-escuro;
+    }
+
+}
