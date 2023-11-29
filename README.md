@@ -12,7 +12,7 @@ O Desafio DNC - Lista de Tarefas é uma aplicação simples que permite aos usu�
 - Instalar Sass
 - Instalar React Router
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizada
 
 - React
 - Sass
