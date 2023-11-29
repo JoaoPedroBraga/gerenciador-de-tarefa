@@ -12,4 +12,9 @@ O Desafio DNC - Lista de Tarefas é uma aplicação simples que permite aos usu�
 - Sass
 - React Router
   
-### versão 1
+### Como abrir no seu computador
+1. Clone o repositório para sua máquina local:
+   no cmd do seu computador: git clone https://github.com/JoaoPedroBraga/gerenciador-de-tarefa.git
+2. cd /gerenciador-de-tarefa
+3. npm install
+4. npm run dev
